@@ -1,4 +1,4 @@
-var mymodule = require('./module');
+var mymodule = require('./challenge6require');
 
 mymodule(process.argv[2], process.argv[3], function (err, data) {
 	if (err) {
